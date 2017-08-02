@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Html解决中文乱码问题  -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to 车纷享!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+
+
+<body>
+<h1>Welcome to nginx!</h1>
+<p> If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<!--  <br/> :Html中的回车换行-->
+<p>For online documentation and support please refer to
+<a href="http://www.ccclubs.com/">车纷享</a>.<br/><br/>
+Commercial support is available at
+
+<!--  <a href></a> :Html中的链接-->
+<a href="http://www.ccclubs.com/">车纷享</a>.</p>
+<a href="/index.html">index</a>
+
+<p><em>Thank you for using nginx.</em></p>
+
+<!-- ul:Html中前面的小黑色点 -->
+<ul>
+	<li><a href="server">Html中前面的小黑色点</a></li>
+	<li><a href="client">Html中前面的小黑色点</a></li>
+</ul>>
+
+
+<br/><br/>
+<h1>以下是javaScript的测试内容</h1>
+
+<!-- 1. JavaScript： 中的 button 学习 -->
+<p>1. JavaScript： 中的 button 学习</p>
+<button type = "button" onclick = "alert('Welcome!')"> 点击这里</button>
+
+
+<!-- 2. JavaScript：写入 HTML 输出 -->
+<p>2. JavaScript：写入 HTML 输出</p>
+<script>
+	document.write("<h4>This is a heading</h4>");
+	document.write("<p>This is a paragraph</p>");
+	//document.write("<br/>");
+</script>
+
+<!-- 换行显示 -->
+<br/>  
+
+
+<!-- 3. JavaScript：JavaScript：改变 HTML 内容 -->
+<p id = "demo"> 3. JavaScript：JavaScript：改变 HTML 内容.</p>
+<script>
+	function myFunction()
+	{
+      x = document.getElementById("demo");//找到内容
+      x.innerHTML = "Hello JavaScript!";//改变内容
+	}
+</script>
+<button type = "button" onclick="myFunction()">改变 HTML 内容</button>
+
+
+<!-- 4. JavaScript：改变 HTML 样式 -->
+<p id = "demostyle"> 4. JavaScript：改变 HTML 样式.</p>
+<script>
+	function myFunctionStyle()
+	{
+      x = document.getElementById("demostyle");//找到内容
+      x.style.color = "#ff0000";//改变内容
+	}
+</script>
+<button type = "buttonStyle" onclick="myFunctionStyle()">改变 HTML 样式</button>
+
+<!-- 5. JavaScript：生成文本 -->
+
+<script type="text/javascript">
+	document.write("Hello world!")
+</script>
+
+
+
+</body>
+</html>
